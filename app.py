@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # --- Carregamento dos dados ---
-df = pd.read_csv("https://raw.githubusercontent.com/DiasJoao002/imersao_dados_python_alura/main/dados-finais.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/DiasJoao002/imersao-dados-python-alura/main/dados-finais.csv")
 
 # --- Barra Lateral (Filtros) ---
 st.sidebar.header("🔍 Filtros")
